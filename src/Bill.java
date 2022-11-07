@@ -17,7 +17,18 @@ class Bill
     //less than 2, nothing extra
     public void addTip()
     {
-
+        if (totalCustomers >= 8){
+            costOfMeal *= 1.25;
+            System.out.println(costOfMeal);
+        }
+        else if(4 <= totalCustomers){
+            costOfMeal *= 1.20;
+            System.out.println(costOfMeal);
+        }
+        else {
+            costOfMeal *= 1.05;
+            System.out.println(costOfMeal);
+        }
     }
 
 
