@@ -19,15 +19,15 @@ class Bill
     {
         if (totalCustomers >= 8){
             costOfMeal *= 1.25;
-            System.out.println(costOfMeal);
+
         }
         else if(4 <= totalCustomers){
             costOfMeal *= 1.20;
-            System.out.println(costOfMeal);
+
         }
-        else {
+        else if(2 <= totalCustomers){
             costOfMeal *= 1.05;
-            System.out.println(costOfMeal);
+
         }
     }
 

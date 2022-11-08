@@ -18,7 +18,9 @@ public class BillTester
 
 
         System.out.println("\n\n"); // print a few blank lines
+
         // Another dinner with 5 guests
+
         System.out.println("Birthday Dinner");
         System.out.println(birthdayDinner);
 
